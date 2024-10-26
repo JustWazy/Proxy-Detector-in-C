@@ -1,7 +1,7 @@
 # Proxy-Detector-in-C
 [![language](https://img.shields.io/badge/language-C-239120)](/)
 
-## Use debian/ubuntu
+## How to use
 ```shell
 git clone https://github.com/WazyTech/Proxy-Detector-in-C.git
 apt update
