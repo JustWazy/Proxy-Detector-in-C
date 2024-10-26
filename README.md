@@ -4,7 +4,7 @@
 
 ## How to use
 ```shell
-git clone https://github.com/WazyTech/Proxy-Detector-in-C.git
+git clone https://github.com/JustWazy/Proxy-Detector-in-C.git
 apt update
 apt install libcurl4-openssl-dev
 gcc proxyscanner.c -o proxyscanner -lcurl
