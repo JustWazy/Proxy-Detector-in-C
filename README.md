@@ -1,5 +1,4 @@
 # Proxy-Detector-in-C
-Proxy scanner in C with api
 [![language](https://img.shields.io/badge/language-C-239120)](/)
 [![OS](https://img.shields.io/badge/OS-linux-0078D4)](/)
 
