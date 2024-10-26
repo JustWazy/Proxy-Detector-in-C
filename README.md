@@ -10,3 +10,6 @@ apt install libcurl4-openssl-dev
 gcc proxyscanner.c -o proxyscanner -lcurl
 ./proxyscanner
 ```
+
+## About Script
+Script C ini dirancang untuk memeriksa apakah sebuah alamat IP adalah proxy dengan menggunakan API dari `ipinfo.app`. Setelah pengguna memasukkan alamat IP yang ingin diperiksa, program membuat permintaan HTTP menggunakan pustaka `libcurl` ke API tersebut. Data respons kemudian diproses melalui fungsi callback untuk menyimpan hasilnya dalam struktur data khusus. Jika respons dari API adalah "Y", program menyimpulkan bahwa IP tersebut adalah proxy dan menampilkan pesan kepada pengguna; jika tidak, IP dianggap bukan proxy. Script ini menggabungkan teknik HTTP request dengan manipulasi data dinamis, menjadikannya contoh aplikasi jaringan sederhana dalam bahasa C.
